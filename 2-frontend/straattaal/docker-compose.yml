@@ -1,0 +1,7 @@
+services:
+  straattaal:
+    image: straattaal-backend
+    container_name: straattaal-backend
+    ports:
+      - "80:80"
+    restart: unless-stopped
